@@ -1,0 +1,121 @@
+/* Reset di base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Stile del body */
+body {
+  font-family: "Helvetica", Arial, sans-serif;
+  background-color: #f4f4f8;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3f51b5;
+  padding: 1rem 2rem;
+}
+
+.logo h2 {
+  color: #ffffff;
+  margin: 0;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #c5cae9;
+}
+
+/* Container principale */
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+/* Titoli */
+h1 {
+  margin-bottom: 1.5rem;
+  color: #3f51b5;
+}
+
+/* Bottoni */
+.btn {
+  background-color: #3f51b5;
+  color: #fff;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #303f9f;
+}
+
+/* Sezione spunto casuale */
+#suggestion-area {
+  margin-top: 2rem;
+}
+
+.suggestion-card {
+  background-color: #fff;
+  padding: 1.5rem;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.suggestion-card p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+/* Lista spunti salvati */
+.saved-list {
+  list-style: none;
+  margin-top: 2rem;
+  padding: 0;
+  text-align: left;
+}
+
+.saved-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.saved-item span {
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #3f51b5;
+  color: #fff;
+}
